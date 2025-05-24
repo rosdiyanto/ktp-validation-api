@@ -90,7 +90,3 @@ docker-compose down
 ## Lisensi
 
 MIT License
-
----
-
-Jika ingin bantuan tambahan, hubungi saya.
