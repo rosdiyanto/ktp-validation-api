@@ -15,8 +15,8 @@ API untuk validasi gambar KTP (format, ukuran, dimensi, kecerahan, orientasi).
 1. Clone repository ini:
 
 ```bash
-git clone <repo-url>
-cd <folder-repo>
+git clone https://github.com/rosdiyanto/ktp-validation-api.git
+cd ktp-validation-api
 ```
 
 2. Pastikan ada file `docker-compose.yml` di folder project dengan isi:
