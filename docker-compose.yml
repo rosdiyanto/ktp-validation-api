@@ -1,0 +1,11 @@
+services:
+  ktp-validation-api:
+    container_name: ktp-validator-container
+    build: .
+    image: ktp-validator:latest
+    ports:
+      - "3000:3000"    # Memetakan port 3000 di host ke port 3000 di container
+    environment:
+      - API_KEY=your_super_secret_api_key   # API key untuk otentikasi akses aplikasi
+      - PORT=3000                           # Port yang digunakan oleh aplikasi di container
+    restart: unless-stopped
